@@ -270,7 +270,7 @@ This project is based on secondary research using publicly available sources, in
 
 Incident details are documented based on available public evidence. Analytical recommendations and potential detection opportunities are distinguished from techniques confirmed in original incident reporting.
 
-Refer to [`research/sources.md`](research/sources.md) for the research references.
+Refer to [`sources.md`](01-case-studies/sources.md) for the research references.
 
 ---
 
