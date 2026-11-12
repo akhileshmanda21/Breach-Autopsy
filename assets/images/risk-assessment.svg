@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title description">
+  <title id="title">Risk assessment comparison</title>
+  <desc id="description">Likelihood multiplied by impact. Equifax scored 25 out of 25, Target scored 20 out of 25, and Colonial Pipeline scored 20 out of 25. All are Critical.</desc>
+  <rect width="900" height="420" rx="14" fill="#ffffff"/>
+  <text x="450" y="46" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" fill="#182230">Risk Assessment Comparison</text>
+  <text x="450" y="74" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#526174">Risk score = Likelihood × Impact (maximum 25)</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#344054">
+    <text x="250" y="137" text-anchor="end">Equifax (2017)</text>
+    <text x="250" y="227" text-anchor="end">Target (2013)</text>
+    <text x="250" y="317" text-anchor="end">Colonial Pipeline (2021)</text>
+  </g>
+
+  <g fill="#f1f4f8">
+    <rect x="275" y="108" width="500" height="42" rx="6"/>
+    <rect x="275" y="198" width="500" height="42" rx="6"/>
+    <rect x="275" y="288" width="500" height="42" rx="6"/>
+  </g>
+  <g>
+    <rect x="275" y="108" width="500" height="42" rx="6" fill="#b42318"/>
+    <rect x="275" y="198" width="400" height="42" rx="6" fill="#d92d20"/>
+    <rect x="275" y="288" width="400" height="42" rx="6" fill="#d92d20"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">
+    <text x="292" y="135">25 / 25 — Critical</text>
+    <text x="292" y="225">20 / 25 — Critical</text>
+    <text x="292" y="315">20 / 25 — Critical</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#667085" text-anchor="middle">
+    <text x="275" y="362">0</text>
+    <text x="375" y="362">5</text>
+    <text x="475" y="362">10</text>
+    <text x="575" y="362">15</text>
+    <text x="675" y="362">20</text>
+    <text x="775" y="362">25</text>
+  </g>
+  <path d="M275 345H775" stroke="#98a2b3" stroke-width="1"/>
+  <g stroke="#98a2b3" stroke-width="1">
+    <path d="M275 345v5M375 345v5M475 345v5M575 345v5M675 345v5M775 345v5"/>
+  </g>
+  <text x="525" y="397" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#526174">Risk score</text>
+</svg>
